@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin/
+Host: www.xn----etbdzranl.xn--p1ai
+Sitemap: http://xn----etbdzranl.xn--p1ai/sitemap.xml

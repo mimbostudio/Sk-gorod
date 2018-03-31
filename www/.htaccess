@@ -1,0 +1,53 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+
+##RewriteRule ^index.php?page=facade$ http://xn----etbdzranl.xn--p1ai/facades [R=301,L]
+Redirect 301 /index.php?page=facade http://xn----etbdzranl.xn--p1ai/facades
+
+<ifModule mod_headers.c>
+	
+	<FilesMatch "\.(html|htm)$">
+		Header set Cache-Control "max-age=43200"
+	</FilesMatch>
+	
+	<FilesMatch "\.(js|txt)$">
+		Header set Cache-Control "max-age=604800"
+	</FilesMatch>
+	
+	<FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
+		Header set Cache-Control "max-age=2592000"
+	</FilesMatch>
+	
+	<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+		Header unset Cache-Control
+	</FilesMatch>
+</IfModule>
+
+ErrorDocument 404 http://xn----etbdzranl.xn--p1ai/
+
+##Rewriterule ^index.php(.*)$ http://xn----etbdzranl.xn--p1ai/$1 [r=301,nc]
+
+RewriteRule ^facades$ index.php?page=facade
+RewriteRule ^facades/type-(\d)$ index.php?page=faspage&id=$1
+RewriteRule ^roofs$ index.php?page=roof
+RewriteRule ^fire$ index.php?page=fire
+RewriteRule ^heating$ index.php?page=heating
+RewriteRule ^watersupply$ index.php?page=watersupply
+RewriteRule ^roofs/type-(\d)$ index.php?page=roofpage&id=$1
+RewriteRule ^indmounts$ index.php?page=indmount
+RewriteRule ^news$ index.php?page=news
+RewriteRule ^news/(\d+)$ index.php?page=page&id=$1
+RewriteRule ^viprab$ index.php?page=viprab
+RewriteRule ^partners$ index.php?page=partners
+RewriteRule ^contact$ index.php?page=contact
+RewriteRule ^build$ index.php?page=build
+RewriteRule ^gas$ gass.html
+
+
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} (.*)
+#RewriteCond %{REQUEST_URI} /$ [NC]
+#RewriteRule ^(.*)(/)$ $1 [L,R=301]

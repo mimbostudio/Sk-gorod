@@ -1,0 +1,201 @@
+<div class="uslugi">
+<br/>
+<center><span class="nuspan" id="uslugi">НАШИ УСЛУГИ</span></center>
+<center>
+<div class="listus">
+
+  <div class="usl">
+       <div class="nameusdiv">КОСМЕТИЧЕСКИЙ РЕМОНТ ФАСАДА</div>
+	   <div class="usimg"><img src="usl/1.jpg"></div>
+	   <div class="price">ОТ <span id="u1">400</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i1" class="inp" name="razmer" oninput="schet(1)" type="text"></input> М<sup>2</sup>≈<span id="s1">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="1">
+	   <input style="display:none;" name="name" value="КОСМЕТИЧЕСКИЙ РЕМОНТ ФАСАДА">
+	   <input style="display:none;" name="img" value="usl/1.jpg">
+	   <input style="display:none;" name="cina" value="400">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	
+	  <div class="usl">
+       <div class="nameusdiv">СТАНДАРТНЫЙ РЕМОНТ ФАСАДА</div>
+	   <div class="usimg"><img src="usl/2.jpg"></div>
+	   <div class="price">ОТ <span id="u2">600</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i2" class="inp" name="razmer" oninput="schet(2)" type="text"></input> М<sup>2</sup>≈<span id="s2">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="2">
+	   <input style="display:none;" name="name" value="СТАНДАРТНЫЙ РЕМОНТ ФАСАДА">
+	   <input style="display:none;" name="img" value="usl/2.jpg">
+	   <input style="display:none;" name="cina" value="600">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	
+<div class="usl">
+       <div class="nameusdiv">КАПИТАЛЬНЫЙ РЕМОНТ ФАСАДА</div>
+	   <div class="usimg"><img src="usl/3.jpg"></div>
+	   <div class="price">ОТ <span id="u3">800</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i3" class="inp" name="razmer" oninput="schet(3)" type="text"></input> М<sup>2</sup>≈<span id="s3">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="3">
+	   <input style="display:none;" name="name" value="КАПИТАЛЬНЫЙ РЕМОНТ ФАСАДА">
+	   <input style="display:none;" name="img" value="usl/3.jpg">
+	   <input style="display:none;" name="cina" value="800">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	<div class="usl">
+       <div class="nameusdiv">РЕМОНТ РУЛОННОЙ КРОВЛИ (НАПЛАВЛЯЕМАЯ КРОВЛЯ)</div>
+	   <div class="usimg"><img src="usl/4.jpg"></div>
+	   <div class="price">ОТ <span id="u4">300</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i4" class="inp" name="razmer" oninput="schet(4)" type="text"></input> М<sup>2</sup>≈<span id="s4">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="4">
+	   <input style="display:none;" name="name" value="РЕМОНТ РУЛОННОЙ КРОВЛИ (НАПЛАВЛЯЕМАЯ КРОВЛЯ)">
+	   <input style="display:none;" name="img" value="usl/4.jpg">
+	   <input style="display:none;" name="cina" value="300">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	
+	<div class="usl">
+       <div class="nameusdiv">РЕМОНТ КРОВЛИ ИЗ МЯГКОЙ ЧЕРЕПИЦЫ</div>
+	   <div class="usimg"><img src="usl/5.jpg"></div>
+	   <div class="price">ОТ <span id="u5">500</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i5" class="inp" name="razmer" oninput="schet(5)" type="text"></input> М<sup>2</sup>≈<span id="s5">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="5">
+	   <input style="display:none;" name="name" value="РЕМОНТ РУЛОННОЙ КРОВЛИ (НАПЛАВЛЯЕМАЯ КРОВЛЯ)">
+	   <input style="display:none;" name="img" value="usl/5.jpg">
+	   <input style="display:none;" name="cina" value="500">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	<div class="usl">
+       <div class="nameusdiv">РЕМОНТ МЕМБРАННОЙ КРОВЛИ</div>
+	   <div class="usimg"><img src="usl/6.jpg"></div>
+	   <div class="price">ОТ <span id="u6">640</span> РУБ/М<sup>2</sup></div>
+		<!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_СТРАТ-->
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i6" class="inp" name="razmer" oninput="schet(6)" type="text"></input> М<sup>2</sup>≈<span id="s6">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="6">
+	   <input style="display:none;" name="name" value="РЕМОНТ МЕМБРАННОЙ КРОВЛИ">
+	   <input style="display:none;" name="img" value="usl/6.jpg">
+	   <input style="display:none;" name="cina" value="640">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   <!--КАЛЬКУЛЯТОР_ПРЕДАЧА_ДАН_КОНЕЦ-->
+	   <br/>
+	</div>
+	
+	
+	
+<div id="dopusl" class="dopusl">
+
+<div class="usl">
+       <div class="nameusdiv">Ремонт кровли из металлочерепицы</div>
+	   <div class="usimg"><img src="usl/7.jpg"></div>
+	   <div class="price">ОТ <span id="u7">480</span> РУБ/М<sup>2</sup></div>
+		
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i7" class="inp" name="razmer" oninput="schet(7)" type="text"></input> М<sup>2</sup>≈<span id="s7">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="7">
+	   <input style="display:none;" name="name" value="Ремонт кровли из металлочерепицы">
+	   <input style="display:none;" name="img" value="usl/7.jpg">
+	   <input style="display:none;" name="cina" value="480">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   
+	   <br/>
+	</div>
+<div class="usl">
+       <div class="nameusdiv" style="font-size:14px;">Ремонт кровли из оцинкованной стали (фальцевая кровля)</div>
+	   <div class="usimg"><img src="usl/8.jpg"></div>
+	   <div class="price">ОТ <span id="u8">600</span> РУБ/М<sup>2</sup></div>
+		
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i8" class="inp" name="razmer" oninput="schet(8)" type="text"></input> М<sup>2</sup>≈<span id="s8">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="8">
+	   <input style="display:none;" name="name" value="Ремонт кровли из оцинкованной стали (фальцевая кровля) ">
+	   <input style="display:none;" name="img" value="usl/8.jpg">
+	   <input style="display:none;" name="cina" value="600">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	  
+	   <br/>
+	</div>
+<div class="usl">
+       <div class="nameusdiv">Ремонт кровли из <br/>шифера </div>
+	   <div class="usimg"><img src="usl/9.jpg"></div>
+	   <div class="price">ОТ <span id="u9">400</span> РУБ/М<sup>2</sup></div>
+		
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i9" class="inp" name="razmer" oninput="schet(9)" type="text"></input> М<sup>2</sup>≈<span id="s9">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="9">
+	   <input style="display:none;" name="name" value="Ремонт кровли из шифера ">
+	   <input style="display:none;" name="img" value="usl/9.jpg">
+	   <input style="display:none;" name="cina" value="400">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	  
+	   <br/>
+	</div>
+<div class="usl">
+       <div class="nameusdiv">Ремонт медной кровли</div>
+	   <div class="usimg"><img src="usl/10.jpg"></div>
+	   <div class="price">ОТ <span id="u10">760</span> РУБ/М<sup>2</sup></div>
+		
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i10" class="inp" name="razmer" oninput="schet(10)" type="text"></input> М<sup>2</sup>≈<span id="s10">0</span> РУБ</div>
+	    <input style="display:none;" name="id" value="10">
+	   <input style="display:none;" name="name" value="Ремонт медной кровли">
+	   <input style="display:none;" name="img" value="usl/10.jpg">
+	   <input style="display:none;" name="cina" value="760">
+	   <input name="submitkorzina"  class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	  
+	   <br/>
+	</div>
+	
+	<div class="usl">
+       <div class="nameusdiv">Устранение протечек кровли</div>
+	   <div class="usimg"><img src="usl/11.jpg"></div>
+	   <div class="price"><span id="u11">ЦЕНА ДОГОВОРНАЯ</span></div>
+		
+		<form method='POST'>
+	   <div class="calc">КАЛЬКУЛЯТОР:<br/><input id="i11" class="inp" name="razmer" oninput="schet(11)" type="text"></input> М<sup>2</sup>≈<span id="s11">0</span> РУБ</div>
+	   <input style="display:none;" name="id" value="11">
+	   <input style="display:none;" name="name" value="Устранение протечек кровли">
+	   <input style="display:none;" name="img" value="usl/11.jpg">
+	   <input style="display:none;" name="cina" value="0">
+	   <input name="submitkorzina"   class="butbask" type="submit" value="ДОБАВИТЬ В КОРЗИНУ">
+	   </form>
+	   
+	   <br/>
+	</div>
+	
+</div>
+	<div class="flcl"></div>
+	<div id="bol1" class="bolshe" onclick="bolshe()">ПОКАЗАТЬ ВСЕ УСЛУГИ</div>
+	<div  id="bol2" class="bolshe1" onclick="menshe()">СКРЫТЬ УСЛУГИ</div>
+	<br/>
+	
+</div>
+</center>
+</div>
